@@ -33,31 +33,31 @@ The script is divided into several functions that perform different actions rela
 
     Test URL for WebDAV vulnerability: This function checks a specific URL for the presence of WebDAV vulnerability by attempting to upload a test file to the server. If the upload is successful, the URL is considered vulnerable.
 
-    Test multiple URLs from a file: This function reads a file containing a list of URLs and tests each URL for WebDAV vulnerability using the previous function. It generates a report indicating which URLs are vulnerable.
+🪲Test multiple URLs from a file: This function reads a file containing a list of URLs and tests each URL for WebDAV vulnerability using the previous function. It generates a report indicating which URLs are vulnerable.
 
-    List Directory: This function retrieves and displays the directory listing of a specified URL using the PROPFIND method. It shows the name, size, and last modified date of each file and subdirectory within the directory.
+🪲List Directory: This function retrieves and displays the directory listing of a specified URL using the PROPFIND method. It shows the name, size, and last modified date of each file and subdirectory within the directory.
 
-    Change Directory: This function allows changing the current working directory by appending a directory name to the base URL.
+🪲Change Directory: This function allows changing the current working directory by appending a directory name to the base URL.
 
-    Upload File: This function uploads a local file to a specified URL using the PUT method. It reports whether the upload was successful or not.
+🪲Upload File: This function uploads a local file to a specified URL using the PUT method. It reports whether the upload was successful or not.
 
-    Download File: This function downloads a file from a specified URL using the GET method and saves it to the local system.
+🪲Download File: This function downloads a file from a specified URL using the GET method and saves it to the local system.
 
-    Print Working Directory: This function retrieves and displays the current working directory (URL) using the PROPFIND method.
+🪲Print Working Directory: This function retrieves and displays the current working directory (URL) using the PROPFIND method.
 
-    Edit File: This function allows editing a file on the server by retrieving its content, opening it in the Nano text editor, modifying the content, and saving the changes back to the server.
+🪲Edit File: This function allows editing a file on the server by retrieving its content, opening it in the Nano text editor, modifying the content, and saving the changes back to the server.
 
-    Delete File: This function deletes a file from the server using the DELETE method.
+🪲Delete File: This function deletes a file from the server using the DELETE method.
 
-    Delete Directory: This function deletes a directory and its contents from the server using the DELETE method.
+🪲Delete Directory: This function deletes a directory and its contents from the server using the DELETE method.
 
-    Copy File: This function copies a file from a source path to a destination path on the server using the COPY method.
+🪲Copy File: This function copies a file from a source path to a destination path on the server using the COPY method.
 
-    Get Server Version: This function retrieves and displays the server version, supported methods, and additional server details using the OPTIONS method.
+🪲Get Server Version: This function retrieves and displays the server version, supported methods, and additional server details using the OPTIONS method.
 
-    Delete All Files: This function deletes all files within a specified directory on the server.
+🪲Delete All Files: This function deletes all files within a specified directory on the server.
 
-    Delete Specific Files: This function deletes a list of specific files (separated by commas) on the server.
+🪲Delete Specific Files: This function deletes a list of specific files (separated by commas) on the server.
 
 The script provides a menu-based interface to interact with these functionalities, allowing users to choose the desired action and provide the necessary inputs. It also includes error handling and informative messages to guide the user throughout the process.
 
