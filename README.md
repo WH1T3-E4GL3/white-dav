@@ -67,3 +67,10 @@ The script provides a menu-based interface to interact with these functionalitie
 To run the script, ensure that the required dependencies (requests, subprocess, xml.etree.ElementTree) are installed. The script can be executed from the command line or integrated into other projects for automated web server testing.
 
 Please note that this script should only be used for ethical purposes with proper authorization. Unauthorized testing of web servers can be illegal and may lead to severe consequences.
+
+
+
+# ScreenShot
+![Screenshot_2023-06-10_08_52_02](https://github.com/WH1T3-E4GL3/white-dav/assets/118425907/812d73e6-13d1-4114-953b-4ad741cdfc01)
+
+
