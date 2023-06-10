@@ -31,7 +31,7 @@ The WebDAV Testing Script is a Python script designed to assess the vulnerabilit
 
 The script is divided into several functions that perform different actions related to WebDAV testing. Here's an overview of the functionalities provided:
 
-    Test URL for WebDAV vulnerability: This function checks a specific URL for the presence of WebDAV vulnerability by attempting to upload a test file to the server. If the upload is successful, the URL is considered vulnerable.
+🪲Test URL for WebDAV vulnerability: This function checks a specific URL for the presence of WebDAV vulnerability by attempting to upload a test file to the server. If the upload is successful, the URL is considered vulnerable.
 
 🪲Test multiple URLs from a file: This function reads a file containing a list of URLs and tests each URL for WebDAV vulnerability using the previous function. It generates a report indicating which URLs are vulnerable.
 
