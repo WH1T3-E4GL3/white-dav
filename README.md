@@ -7,7 +7,6 @@ This is a website penetration testing tool for testing webdav server vulnerabili
 ## Support
 [![Instagram](https://img.shields.io/badge/TELEGRAM-red?style=for-the-badge&logo=telegram)](https://t.me/Ka_KsHi_HaTaKe)       [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-green?style=for-the-badge&logo=instagram)](https://www.instagram.com/_vladimir_putin.___/?igshid=YmMyMTA2M2Y=)
 
-# Installation 
 
 # Installation
     $ apt update && apt update -y
