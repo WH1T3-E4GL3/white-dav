@@ -1,6 +1,6 @@
 # white-dav
 This is a website penetration testing tool for testing webdav server vulnerabilities.
-![White_DAV__1__AdobeExpress(1)](https://github.com/WH1T3-E4GL3/white-dav/assets/118425907/2ad5c567-2982-4c1f-8bd2-0d62a08a1f8d)
+
 
 
 
