@@ -71,6 +71,7 @@ Please note that this script should only be used for ethical purposes with prope
 
 
 # ScreenShot
-![Screenshot_2023-06-10_08_52_02](https://github.com/WH1T3-E4GL3/white-dav/assets/118425907/812d73e6-13d1-4114-953b-4ad741cdfc01)
 
+
+![Screenshot_2023-06-10_08_52_02](https://github.com/WH1T3-E4GL3/white-dav/assets/118425907/ae1fe90f-61a9-4237-bc02-a3451673968b)
 
