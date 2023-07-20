@@ -164,6 +164,10 @@ def print_working_directory(url):
 #---------------------------------------------------------------------------------------------------------
 
 def edit_file(url, file_path):
+    # Check if the file_path starts with a '/'
+    if not file_path.startswith('/'):
+        file_path = '/' + file_path
+
     # Perform the GET request to retrieve the file content
     response = requests.get(url + file_path)
 
@@ -318,7 +322,7 @@ def main_menu():
 █=====================================================================================█
 █ 1.  Test url for Webdav vulnerability | 9.  Delete File                             █
 █ 2.  Test multiple url from file       | 10. Delete Directory                        █
-█ 3.  List Directory			| 11. Copy File		                      █
+█ 3.  List all Directories		| 11. Copy File		                      █
 █ 4.  Change Directory			| 12. Get Server details                      █
 █ 5.  Upload File			| 13. Delete all files                        █
 █ 6.  Download File			| 14. Delete specic files(seperated by commas)█
@@ -330,7 +334,7 @@ def main_menu():
 
         choice = input("\033[1m\033[33;32m[+] Select an option number from the above menu >\033[0m ")
         if choice == '1':
-            url = input('Enter the URL: ').strip()
+            url = input('Enter the URL with http:// > ').strip()
             vulnerable_urls = []  # Create an empty list to store vulnerable URLs
             check_webdav_vulnerability(url, vulnerable_urls)  # Pass the list as an argument
             if vulnerable_urls:
@@ -393,9 +397,9 @@ def main_menu():
             print("""
     \033[32m================================================================\033[0m
     \033[32mTool devoloped  : WH1T3'\033[0m
-    \033[33mThere is a file called deface.py in this directory.\033[0m
+    \033[33mThere is a file called white-deface.py in this directory.\033[0m
     \033[33mYou can see it by typing ls.\033[0m
-    \033[33mRun that file as python deface.py and follow the steps to deface site.\033[0m
+    \033[33mRun that file as python white-deface.py and follow the steps to deface site.\033[0m
     \033[32m================================================================\033[0m
     """)
         elif choice == "16":
