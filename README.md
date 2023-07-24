@@ -75,4 +75,4 @@ Please note that this script should only be used for ethical purposes with prope
 
 ![Screenshot_2023-06-10_08_52_02](https://github.com/WH1T3-E4GL3/white-dav/assets/118425907/ae1fe90f-61a9-4237-bc02-a3451673968b)
 
-***You can get a early subproject of this white-dav script named white-deface [!Here](https://github.com/WH1T3-E4GL3/white-deface)***
+***You can get an early subproject of this white-dav script named white-deface [Here](https://github.com/WH1T3-E4GL3/white-deface)***
