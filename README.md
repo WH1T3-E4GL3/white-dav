@@ -34,33 +34,33 @@ The WebDAV Testing Script is a Python script designed to assess the vulnerabilit
 
 The script is divided into several functions that perform different actions related to WebDAV testing. Here's an overview of the functionalities provided:
 
-🪲Test URL for WebDAV vulnerability: This function checks a specific URL for the presence of WebDAV vulnerability by attempting to upload a test file to the server. If the upload is successful, the URL is considered vulnerable.
+<i>🪲Test URL for WebDAV vulnerability: This function checks a specific URL for the presence of WebDAV vulnerability by attempting to upload a test file to the server. If the upload is successful, the URL is considered vulnerable.</i>
 
-🪲Test multiple URLs from a file: This function reads a file containing a list of URLs and tests each URL for WebDAV vulnerability using the previous function. It generates a report indicating which URLs are vulnerable.
+<i>🪲Test multiple URLs from a file: This function reads a file containing a list of URLs and tests each URL for WebDAV vulnerability using the previous function. It generates a report indicating which URLs are vulnerable.</i>
 
-🪲List Directory: This function retrieves and displays the directory listing of a specified URL using the PROPFIND method. It shows the name, size, and last modified date of each file and subdirectory within the directory.
+<i>🪲List Directory: This function retrieves and displays the directory listing of a specified URL using the PROPFIND method. It shows the name, size, and last modified date of each file and subdirectory within the directory.</i>
 
-🪲Change Directory: This function allows changing the current working directory by appending a directory name to the base URL.
+<i>🪲Change Directory: This function allows changing the current working directory by appending a directory name to the base URL.</i>
 
-🪲Upload File: This function uploads a local file to a specified URL using the PUT method. It reports whether the upload was successful or not.
+<i>🪲Upload File: This function uploads a local file to a specified URL using the PUT method. It reports whether the upload was successful or not.</i>
 
-🪲Download File: This function downloads a file from a specified URL using the GET method and saves it to the local system.
+<i>🪲Download File: This function downloads a file from a specified URL using the GET method and saves it to the local system.</i>
 
-🪲Print Working Directory: This function retrieves and displays the current working directory (URL) using the PROPFIND method.
+<i>🪲Print Working Directory: This function retrieves and displays the current working directory (URL) using the PROPFIND method.</i>
 
-🪲Edit File: This function allows editing a file on the server by retrieving its content, opening it in the Nano text editor, modifying the content, and saving the changes back to the server.
+<i>🪲Edit File: This function allows editing a file on the server by retrieving its content, opening it in the Nano text editor, modifying the content, and saving the changes back to the server.</i>
 
-🪲Delete File: This function deletes a file from the server using the DELETE method.
+<i>🪲Delete File: This function deletes a file from the server using the DELETE method.</i>
 
-🪲Delete Directory: This function deletes a directory and its contents from the server using the DELETE method.
+<i>🪲Delete Directory: This function deletes a directory and its contents from the server using the DELETE method.</i>
 
-🪲Copy File: This function copies a file from a source path to a destination path on the server using the COPY method.
+<i>🪲Copy File: This function copies a file from a source path to a destination path on the server using the COPY method.</i>
 
-🪲Get Server Version: This function retrieves and displays the server version, supported methods, and additional server details using the OPTIONS method.
+<i>🪲Get Server Version: This function retrieves and displays the server version, supported methods, and additional server details using the OPTIONS method.</i>
 
-🪲Delete All Files: This function deletes all files within a specified directory on the server.
+🪲Delete All Files: This function deletes all files within a specified directory on the server.</i>
 
-🪲Delete Specific Files: This function deletes a list of specific files (separated by commas) on the server.
+<i>🪲Delete Specific Files: This function deletes a list of specific files (separated by commas) on the server.</i>
 
 The script provides a menu-based interface to interact with these functionalities, allowing users to choose the desired action and provide the necessary inputs. It also includes error handling and informative messages to guide the user throughout the process.
 
