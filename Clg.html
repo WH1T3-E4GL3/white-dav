@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  </style>
+  <title>LOGIN - PAGE</title>
+</head>
+<body>
+  <ion-icon id="close" name="close-outline"></ion-icon>
+  <div class="container" id="signin">
+    <form>
+      <div class="top">
+      <span class="head"><h2>SIGN IN</h2></span>
+      <label for="h2">Fill details to login</label>
+      </div>
+      <div class="inputbox">
+        <input type="text" placeholder="Enter your Id" required><ion-icon name="mail" id="icon1"></ion-icon>
+        <span>EMAIL OR USER NAME</span>
+      </div>
+      <div class="inputbox">
+        <input id="password" type="password" placeholder="Enter your password" required>
+        <span onclick="passwordshow()">
+        <ion-icon id="icon" name="eye"></ion-icon>
+        </span>
+        <span>PASSWORD</span>
+      </div>
+      <div class="forgot">
+        <span class="checkbox">
+        <input type="checkbox" id="check"/>
+        <label for="check">Rememberme</label>
+        </span>
+        <span><a href="#">Forgot password?</a></span>
+      </div>
+      <button id="submit" type="submit">SIGN IN</button>
+    </form>
+  </div>
+  <ion-icon id="close" name="close-outline"></ion-icon>
+  <div class="container" id="signup">
+    <form>
+      <div class="top">
+      <h2>SIGN UP</h2>
+      <label for="h2">Fill details to Register</label>
+      </div>
+      <div class="inputbox">
+        <input type="text" placeholder="Enter your Mail Id" required>
+        <span>EMAIL ID</span>
+      </div>
+      <div class="inputbox">
+        <input id="password" type="password" placeholder="Create password" required>
+        <span> CREATE PASSWORD</span>
+      </div>
+      <div class="inputbox">
+        <input id="password" type="password" placeholder="Confirm password" required>
+        <span> CONFIRM PASSWORD</span>
+      </div>
+      <button id="submit" type="submit">SIGN UP</button>
+    </form>
+  </div>
+</body>
+<script>
+function passwordshow(){
+  const passwordInput = document.getElementById("password");
+  const icon = document.getElementById("#icon")
+  if(passwordInput.type === "password") {
+  passwordInput.type = "text";
+  icon.classList.replace("eye", "eye-off");
+  return;
+  }
+  else {
+    passwordInput.type = "password";
+    icon.classList.replace("eye-off", "eye");
+  }
+}
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </html>
