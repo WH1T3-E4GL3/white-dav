@@ -6,9 +6,8 @@ This is a website penetration testing tool for testing webdav server vulnerabili
 
 
 ## Author
-<a href="https://github.com/WH1T3-E4GL3"><img title="Github" src="https://img.shields.io/badge/WH1T3-E4GL3-brightgreen?style=for-the-badge&logo=github"></a>
-## Support
-[![Instagram](https://img.shields.io/badge/TELEGRAM-red?style=for-the-badge&logo=telegram)](https://t.me/Ka_KsHi_HaTaKe)       [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-green?style=for-the-badge&logo=instagram)](https://www.instagram.com/whxite.exe)
+[<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />](https://www.instagram.com/whxitte)
+
 
 
 # Installation
